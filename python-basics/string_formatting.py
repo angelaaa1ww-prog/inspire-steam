@@ -45,9 +45,48 @@ new_balance = int(cleaned_balance) + int(cleaned_amount_added)
 
 print(f"The new balance is:", new_balance)
 
-money = "40Kes"
-message = "CONFIRMED you have received"
-sender = "from Philip"       
-
+money = " 40Kes"
+message = " CONFIRMED you have received "
+sender = " from Philip" 
 
 print(mpesa_code + message + money + sender)
+
+ 
+added = "12.02Kes"
+new_added = added.replace("Kes","")
+print(f"New money is:{new_added}")
+print(added)
+print(money)
+new_money = money.replace("Kes","")
+print(f"New money :{new_money}")
+print(new_added)
+print(float(new_money))
+results = (float(new_money)) + (float(new_added))
+print(results)
+new_results = round(results, 2)
+print(new_results)
+print(mpesa_code + message + str(new_results) + sender)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
