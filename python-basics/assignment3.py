@@ -5,9 +5,21 @@
 
 import math
 for x in range(-180,180,30):
-    print("-------------------------------")
-    print("angle(x)")
     print(math.sin(x), math.cos(x), math.tan(x))
+
+import math
+
+# Header
+print("-----------------------------------------------")
+print("| Degrees |    Sin    |    Cos    |    Tan    |")
+print("-----------------------------------------------")
+
+# Rows
+for x in range(-180, 181, 30):
+    print(f"| {x:7} | {math.sin(x):9.3f} | {math.cos(x):9.3f} | {math.tan(x):9.3f} |")
+
+print("+----------------------------------------------")
+
     
 
   
