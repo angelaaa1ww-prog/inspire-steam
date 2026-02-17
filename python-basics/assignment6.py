@@ -10,6 +10,9 @@ for i in range(1,2*n):
     else:
         print(("*"*(2*(2*n-i)-1)).center(2*n-1))
 
+
+
+
 # triangle display 
 
 n = 5 #height 
