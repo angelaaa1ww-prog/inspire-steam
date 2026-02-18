@@ -1,6 +1,6 @@
 # Name : Angela Amani
 # Date : 16/02/2024
-# Program : To calculate oncpme tax
+# Program : To calculate income tax
 
 salary = int(input("Enter your gross salary: "))
 
