@@ -1,3 +1,9 @@
+# Name : Amani Angela
+# Date : 9/02/2026
+# Program to print out my favourite university, grade, course and cluster points
+
+
+
 university="UON"
 Grade="A-"
 Favourite_course="Software engineering"
