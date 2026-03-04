@@ -1,9 +1,3 @@
-# Name : Angela Amani
-# Date : 23/02/2026
-# Program to create an app using tkinter to say hello
-
-
-
 import tkinter as tk
 from tkinter import ttk, messagebox
 from datetime import datetime
@@ -155,7 +149,6 @@ if __name__ == "__main__":
     root = tk.Tk()
     app = POS(root)
     root.mainloop()
-
 
 
 

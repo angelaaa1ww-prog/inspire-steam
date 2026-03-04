@@ -1,6 +1,6 @@
 # Name : Angela Amani
 # Date : 23/02/2026
-# Program to show inheritance in python
+# Program to show ingeritance in python
 
 class Animal():
 
@@ -45,7 +45,6 @@ class Horse(Animal):
 
     def neighs(self):
         print(f"The horse says neigh neigh")
-
 
 
 
