@@ -1,6 +1,7 @@
 # Name : Angela Amani
 # Date : 4/03/2026
-# Program to the working of a DHT22 sensor
+# Program to the working of a DHT22 sensor perfectly
+
 
 from machine import Pin, I2C, ADC
 from ssd1306 import SSD1306_I2C
