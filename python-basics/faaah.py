@@ -1,0 +1,2 @@
+name = Amani
+print("name=-")
