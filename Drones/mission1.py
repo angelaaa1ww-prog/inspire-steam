@@ -2,6 +2,7 @@ from pysimverse import Drone
 import time
 
 drone = Drone()
+drone = Drone(speed = 400)
 drone.connect()
 
 drone.take_off(100)
