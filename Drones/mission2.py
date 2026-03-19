@@ -2,16 +2,16 @@ from pysimverse import Drone
 import time
 
 drone = Drone()
-drone = Drone(speed = 400)
+drone = Drone(speed = 500)
 drone.connect()
 
-drone.take_off(100)
+drone.take_off(30)
 
-drone.move_forward(100)
-drone.move_left(100)
-drone.move_forward(100)
-drone.move_right(100)
-drone.move_forward(100)
+drone.move_forward(90)
+drone.move_left(250)
+drone.move_forward(90)
+drone.move_right(250)
+drone.move_forward(90)
 drone.move_right(250)
 
 drone.land()
