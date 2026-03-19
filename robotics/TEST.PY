@@ -5,8 +5,8 @@ RDK = Robolink()
 robot = RDK.Item('', ITEM_TYPE_ROBOT)
 
 #Your targets
-pick_app = RDK.Item('Pick_Approach')
-pick = RDK.Item('Pick')
+pick_app = RDK.Item('Pick')
+pick = RDK.Item('Pick_Approach')
 place_app = RDK.Item('Place_Approach')
 place = RDK.Item('Place')
 home = RDK.Item('Home')
