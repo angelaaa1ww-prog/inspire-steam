@@ -57,7 +57,3 @@ while True:
 
 # Clean up OpenCV window
 cv2.destroyAllWindows()
-
-
-
-    
