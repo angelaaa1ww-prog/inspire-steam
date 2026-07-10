@@ -5,9 +5,9 @@ drone = Drone()
 drone = Drone(speed = 1000)
 drone.connect()
 
-drone.take_off(30)
+drone.take_off(70)
 
-drone.move_forward(250)
-drone.move_right(250)
+drone.move_forward(230)
+drone.move_right(350)
 
 drone.land()
